@@ -1,0 +1,19 @@
+.header-image {
+  height: 200px;
+  width: 300px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #FBE791;
+}
