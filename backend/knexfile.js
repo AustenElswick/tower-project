@@ -4,13 +4,11 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres:///tower'
-
+    connection: 'postgres://localhost/tower'
   },
   production: {
     client: 'pg',
     connection: `${process.env.DATABASE_URL}?ssl=true`
-
   }
 
 }
