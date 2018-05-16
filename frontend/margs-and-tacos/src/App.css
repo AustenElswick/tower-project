@@ -5,3 +5,8 @@
 body {
   background-color: #AC3536;
 }
+
+.map-flex {
+  display: flex;
+  justify-content: space-between;
+}
