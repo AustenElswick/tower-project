@@ -12,6 +12,6 @@ exports.seed = function(knex, Promise) {
         {id: 5, lat: 39.738216, long: -104.998542, name: 'Tacos Los Compas'},
         {id: 6, lat: 39.733431, long: -104.987856, name: 'Torchys Tacos'}
       ])
-      return knex.raw('ALTER SEQUENCE margs_id_seq RESTART WITH 7;')
+      .then(() => knex.raw('ALTER SEQUENCE margs_id_seq RESTART WITH 7;')
     })
 }
