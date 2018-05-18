@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cypress": "^2.1.0",
     "google-map-react": "^1.0.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
