@@ -25,16 +25,16 @@ router.post('/', (req, res) => {
   })
 })
 
-router.post('/delete', (req, res) => {
-  const id = req.params.id
+router.delete('/', (req, res) => {
+  const id = req.body.id
   queries.deleteMarg(id)
   .then(oldMarg => {
     res.status(204).json({oldMarg})
   })
 })
 
-router.post('/update', (req, res) => {
-  const id = req.params.id
+router.put('/', (req, res) => {
+  const id = req.body.id
   const body = req.body
   queries.updateMarg(body, id)
   .then(update => {
