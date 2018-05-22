@@ -17,3 +17,4 @@ click [here](https://sheltered-harbor-96340.herokuapp.com/) and add either tacos
 - www.linkedin.com/in/austenelswick
 
 ## License
+- MIT license
